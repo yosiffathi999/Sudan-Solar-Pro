@@ -1,0 +1,23 @@
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,Helvetica,sans-serif;color:#17221b;background:#f7faf7;line-height:1.6}
+.container{width:min(100% - 32px,1000px);margin:auto}
+.hero{padding:80px 0 70px;text-align:center;background:linear-gradient(135deg,#dff7df,#fff8d8)}
+.badge{display:inline-block;padding:8px 14px;border-radius:999px;background:#fff;font-size:14px;font-weight:700}
+h1{font-size:clamp(42px,8vw,76px);margin:18px 0 8px;letter-spacing:-2px}
+.subtitle{max-width:650px;margin:0 auto 28px;font-size:20px;color:#526057}
+.download{display:inline-block;background:#176b3a;color:white;text-decoration:none;padding:14px 28px;border-radius:12px;font-weight:700;box-shadow:0 8px 20px rgba(23,107,58,.18)}
+.download:hover{background:#10552d}
+.small{font-size:13px;color:#657169;margin-top:12px}
+.intro{text-align:center;padding:60px 0 30px}
+.intro h2,.download-box h2{font-size:32px;margin-bottom:10px}
+.intro p{max-width:700px;margin:auto;color:#5a655e}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;padding:25px 0 60px}
+.cards article{background:white;border:1px solid #e4ebe5;border-radius:18px;padding:28px;box-shadow:0 8px 24px rgba(0,0,0,.04)}
+.cards span{font-size:30px}
+.cards h3{margin:12px 0 5px}
+.cards p{color:#657169;margin:0}
+.download-box{text-align:center;background:white;border:1px solid #e4ebe5;border-radius:22px;padding:45px 25px;margin-bottom:60px}
+.download-box p{color:#657169}
+.note{font-size:13px;max-width:600px;margin:18px auto 0}
+footer{text-align:center;padding:25px;color:#69736d;font-size:13px;background:#edf3ee}
+@media(max-width:700px){.cards{grid-template-columns:1fr}.hero{padding:60px 0 50px}h1{font-size:48px}.subtitle{font-size:17px}}
